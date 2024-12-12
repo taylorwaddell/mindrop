@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		F73AE4E52D0B2EBD00007BBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F73AE4CB2D0B2EBB00007BBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F73AE4D22D0B2EBB00007BBC;
+			remoteInfo = mindrop;
+		};
+		F73AE4EF2D0B2EBD00007BBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F73AE4CB2D0B2EBB00007BBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F73AE4D22D0B2EBB00007BBC;
+			remoteInfo = mindrop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F73AE4D32D0B2EBB00007BBC /* mindrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mindrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F73AE4E42D0B2EBD00007BBC /* mindropTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mindropTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F73AE4EE2D0B2EBD00007BBC /* mindropUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mindropUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F73AE4D52D0B2EBB00007BBC /* mindrop */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = mindrop;
+			sourceTree = "<group>";
+		};
+		F73AE4E72D0B2EBD00007BBC /* mindropTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = mindropTests;
+			sourceTree = "<group>";
+		};
+		F73AE4F12D0B2EBD00007BBC /* mindropUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = mindropUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F73AE4D02D0B2EBB00007BBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F73AE4E12D0B2EBD00007BBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F73AE4EB2D0B2EBD00007BBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F73AE4CA2D0B2EBB00007BBC = {
+			isa = PBXGroup;
+			children = (
+				F73AE4D52D0B2EBB00007BBC /* mindrop */,
+				F73AE4E72D0B2EBD00007BBC /* mindropTests */,
+				F73AE4F12D0B2EBD00007BBC /* mindropUITests */,
+				F73AE4D42D0B2EBB00007BBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F73AE4D42D0B2EBB00007BBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F73AE4D32D0B2EBB00007BBC /* mindrop.app */,
+				F73AE4E42D0B2EBD00007BBC /* mindropTests.xctest */,
+				F73AE4EE2D0B2EBD00007BBC /* mindropUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F73AE4D22D0B2EBB00007BBC /* mindrop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F73AE4F82D0B2EBD00007BBC /* Build configuration list for PBXNativeTarget "mindrop" */;
+			buildPhases = (
+				F73AE4CF2D0B2EBB00007BBC /* Sources */,
+				F73AE4D02D0B2EBB00007BBC /* Frameworks */,
+				F73AE4D12D0B2EBB00007BBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F73AE4D52D0B2EBB00007BBC /* mindrop */,
+			);
+			name = mindrop;
+			packageProductDependencies = (
+			);
+			productName = mindrop;
+			productReference = F73AE4D32D0B2EBB00007BBC /* mindrop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F73AE4E32D0B2EBD00007BBC /* mindropTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F73AE4FB2D0B2EBD00007BBC /* Build configuration list for PBXNativeTarget "mindropTests" */;
+			buildPhases = (
+				F73AE4E02D0B2EBD00007BBC /* Sources */,
+				F73AE4E12D0B2EBD00007BBC /* Frameworks */,
+				F73AE4E22D0B2EBD00007BBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F73AE4E62D0B2EBD00007BBC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F73AE4E72D0B2EBD00007BBC /* mindropTests */,
+			);
+			name = mindropTests;
+			packageProductDependencies = (
+			);
+			productName = mindropTests;
+			productReference = F73AE4E42D0B2EBD00007BBC /* mindropTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F73AE4ED2D0B2EBD00007BBC /* mindropUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F73AE4FE2D0B2EBD00007BBC /* Build configuration list for PBXNativeTarget "mindropUITests" */;
+			buildPhases = (
+				F73AE4EA2D0B2EBD00007BBC /* Sources */,
+				F73AE4EB2D0B2EBD00007BBC /* Frameworks */,
+				F73AE4EC2D0B2EBD00007BBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F73AE4F02D0B2EBD00007BBC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F73AE4F12D0B2EBD00007BBC /* mindropUITests */,
+			);
+			name = mindropUITests;
+			packageProductDependencies = (
+			);
+			productName = mindropUITests;
+			productReference = F73AE4EE2D0B2EBD00007BBC /* mindropUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F73AE4CB2D0B2EBB00007BBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					F73AE4D22D0B2EBB00007BBC = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					F73AE4E32D0B2EBD00007BBC = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = F73AE4D22D0B2EBB00007BBC;
+					};
+					F73AE4ED2D0B2EBD00007BBC = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = F73AE4D22D0B2EBB00007BBC;
+					};
+				};
+			};
+			buildConfigurationList = F73AE4CE2D0B2EBB00007BBC /* Build configuration list for PBXProject "mindrop" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F73AE4CA2D0B2EBB00007BBC;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F73AE4D42D0B2EBB00007BBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F73AE4D22D0B2EBB00007BBC /* mindrop */,
+				F73AE4E32D0B2EBD00007BBC /* mindropTests */,
+				F73AE4ED2D0B2EBD00007BBC /* mindropUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F73AE4D12D0B2EBB00007BBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F73AE4E22D0B2EBD00007BBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F73AE4EC2D0B2EBD00007BBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F73AE4CF2D0B2EBB00007BBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F73AE4E02D0B2EBD00007BBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F73AE4EA2D0B2EBD00007BBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F73AE4E62D0B2EBD00007BBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F73AE4D22D0B2EBB00007BBC /* mindrop */;
+			targetProxy = F73AE4E52D0B2EBD00007BBC /* PBXContainerItemProxy */;
+		};
+		F73AE4F02D0B2EBD00007BBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F73AE4D22D0B2EBB00007BBC /* mindrop */;
+			targetProxy = F73AE4EF2D0B2EBD00007BBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F73AE4F62D0B2EBD00007BBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F73AE4F72D0B2EBD00007BBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F73AE4F92D0B2EBD00007BBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = mindrop/mindrop.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"mindrop/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.twadd.mindrop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F73AE4FA2D0B2EBD00007BBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = mindrop/mindrop.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"mindrop/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.twadd.mindrop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F73AE4FC2D0B2EBD00007BBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.twadd.mindropTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mindrop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mindrop";
+			};
+			name = Debug;
+		};
+		F73AE4FD2D0B2EBD00007BBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.twadd.mindropTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mindrop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mindrop";
+			};
+			name = Release;
+		};
+		F73AE4FF2D0B2EBD00007BBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.twadd.mindropUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = mindrop;
+			};
+			name = Debug;
+		};
+		F73AE5002D0B2EBD00007BBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.twadd.mindropUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = mindrop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F73AE4CE2D0B2EBB00007BBC /* Build configuration list for PBXProject "mindrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F73AE4F62D0B2EBD00007BBC /* Debug */,
+				F73AE4F72D0B2EBD00007BBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F73AE4F82D0B2EBD00007BBC /* Build configuration list for PBXNativeTarget "mindrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F73AE4F92D0B2EBD00007BBC /* Debug */,
+				F73AE4FA2D0B2EBD00007BBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F73AE4FB2D0B2EBD00007BBC /* Build configuration list for PBXNativeTarget "mindropTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F73AE4FC2D0B2EBD00007BBC /* Debug */,
+				F73AE4FD2D0B2EBD00007BBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F73AE4FE2D0B2EBD00007BBC /* Build configuration list for PBXNativeTarget "mindropUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F73AE4FF2D0B2EBD00007BBC /* Debug */,
+				F73AE5002D0B2EBD00007BBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F73AE4CB2D0B2EBB00007BBC /* Project object */;
+}
