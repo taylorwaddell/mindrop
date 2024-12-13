@@ -17,7 +17,6 @@ struct CustomSlider: View {
     var body: some View {
         GeometryReader { geometry in
             ZStack(alignment: .leading) {
-                // Gradient track
                 LinearGradient(
                     gradient: gradient,
                     startPoint: .leading,
@@ -29,7 +28,7 @@ struct CustomSlider: View {
                     DragGesture(minimumDistance: 0)
                         .onChanged { gesture in
                             let dragX = min(max(gesture.location.x, 0), geometry.size.width)
-                            value = round(Double(dragX / geometry.size.width) * maxValue) // Round value
+                            value = round(Double(dragX / geometry.size.width) * maxValue)
                             onEditingChanged()
                         }
                 )
@@ -44,7 +43,7 @@ struct CustomSlider: View {
                         DragGesture()
                             .onChanged { gesture in
                                 let dragX = min(max(gesture.location.x, 0), geometry.size.width)
-                                value = round(Double(dragX / geometry.size.width) * maxValue) // Round value
+                                value = round(Double(dragX / geometry.size.width) * maxValue)
                                 onEditingChanged()
                             }
                     )

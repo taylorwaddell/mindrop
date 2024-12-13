@@ -30,7 +30,6 @@ struct ContentView: View {
         .padding()
         .frame(width: 300, height: 500)
         .background(Color(NSColor.windowBackgroundColor))
-        .shadow(radius: 5)
     }
 }
 

@@ -12,37 +12,43 @@ struct RGBSlidersView: View {
     @EnvironmentObject var viewModel: ColorPickerViewModel
 
     var body: some View {
+        // Extract the current selected color in device RGB space
+        let currentColor = viewModel.selectedColor.usingColorSpace(.deviceRGB)!
+        let rVal = Double(currentColor.redComponent)
+        let gVal = Double(currentColor.greenComponent)
+        let bVal = Double(currentColor.blueComponent)
+
         VStack(spacing: 16) {
+            // Red Slider
             SliderWithInput(
                 label: "Red",
                 value: $viewModel.red,
                 maxValue: 255,
                 gradient: Gradient(colors: [
-                    Color.black,
-                    Color.red.opacity(0.3),
-                    Color.red
+                    Color(red: 0, green: gVal, blue: bVal),
+                    Color(red: 1, green: gVal, blue: bVal)
                 ])
             )
 
+            // Green Slider
             SliderWithInput(
                 label: "Green",
                 value: $viewModel.green,
                 maxValue: 255,
                 gradient: Gradient(colors: [
-                    Color.black,
-                    Color.green.opacity(0.3),
-                    Color.green
+                    Color(red: rVal, green: 0, blue: bVal),
+                    Color(red: rVal, green: 1, blue: bVal)
                 ])
             )
 
+            // Blue Slider
             SliderWithInput(
                 label: "Blue",
                 value: $viewModel.blue,
                 maxValue: 255,
                 gradient: Gradient(colors: [
-                    Color.black,
-                    Color.blue.opacity(0.3),
-                    Color.blue
+                    Color(red: rVal, green: gVal, blue: 0),
+                    Color(red: rVal, green: gVal, blue: 1)
                 ])
             )
         }
